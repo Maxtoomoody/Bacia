@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html dir="rtl" lang="ar">
 
 <head>
     <!-- Document Meta
@@ -14,13 +14,15 @@
 
     <!-- Fonts
     ============================================= -->
-    <link href='http://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,700,900%7CRuthie%7CAbril+Fatface' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Changa:200,300,400,500,600,700&amp;subset=arabic" rel="stylesheet">
 
     <!-- Stylesheets
     ============================================= -->
     <link href="assets/css/external.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/style-rtl.css" rel="stylesheet" />
+    <link type="text/css" href="assets/css/style-arabic.css" rel="stylesheet" />
 
     <!-- RS5.0 Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
@@ -35,7 +37,7 @@
 
     <!-- Document Title
     ============================================= -->
-    <title>Baci resturant & cafe</title>
+    <title>صالون آدم</title>
 </head>
 
 <body>
@@ -71,41 +73,85 @@
                 <ul class="nav navbar-nav nav-pos-right navbar-left">
                     <!-- Home Menu -->
 <li class="has-dropdown mega-dropdown active">
-    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">home</a>
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">الرئيسية</a>
     <ul class="dropdown-menu mega-dropdown-menu">
         <li>
             <div class="container">
                 <div class="row">
+                    <!-- Column #1 -->
+                    <div class="col-md-3">
+                        <ul>
+                            <li>
+                                <a href="index.html">home main</a>
+                            </li>
+                            <li>
 
-                </div>
-                <!-- .row end -->
-            </div>
-            <!-- container end -->
-        </li>
-    </ul>
-    <!-- .mega-dropdown-menu end -->
 </li>
 <!-- li end -->
-
 <!-- About Menu -->
 <li class="has-dropdown">
-<a href="https://online.fliphtml5.com/totog/qnzp/" class="menu-item"> Menu</a>
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle link-hover" data-hover="pages">من نحن</a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="page-about.html">قصتنا</a>
+        </li>
+        <li>
+            <a href="page-chefs.html">الحلاقون</a>
+        </li>
+        <li>
+            <a href="page-contacts.html">تواصل معنا</a>
+        </li>
+        <li>
+        <li>
+        <li>
+            <a href="page-book-table.html">online reservation</a>
+        </li>
+
+    </ul>
+</li>
 <!-- li end -->
 
-<li>
-<a class="menu-item" href="https://wa.link/bgl9ja" target="_blank">Reserve your table </a>
 </li>
-
-<!-- Features Menu-->
+<!-- li end -->
+<li>
+    <a class="menu-item" href="page-gallery.html">المعرض</a>
+</li>
+<!-- Blog Menu-->
 <li class="has-dropdown">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">مدونة</a>
+    <ul class="dropdown-menu">
+        <li>
+            <a href="blog-carousel.html">blog carousel</a>
+        </li>
+        <li>
+            <a href="blog-grid.html">blog grid</a>
+        </li>
+        <li>
+            <a href="blog-standard.html">blog standard</a>
+        </li>
+        <li>
+            <a href="blog-single.html">blog single</a>
+        </li>
+    </ul>
+</li>
+<!-- li end -->
 
-
-
+                        </div>
+                        <!-- .col-md-8 end -->
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+                <!-- Module
                 <!-- Module Search -->
 <div class="module module-search pull-left">
     <div class="module-icon search-icon">
         <i class="fa fa-search"></i>
-        <span class="title">search</span>
+        <span class="title">بحث</span>
     </div>
     <div class="module-content module-fullscreen module--search-box">
         <div class="pos-vertical-center">
@@ -113,7 +159,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                         <form class="form-search">
-                            <input type="text" class="form-control" placeholder="Type Search Words Then Enter">
+                            <input type="text" class="form-control" placeholder="اكتب كلمات البحث...">
                             <button class="btn" type="button"><i class="fa fa-search"></i></button>
                         </form>
                         <!-- .form-search end -->
@@ -128,268 +174,143 @@
     </div>
 </div>
 <!-- .module-search end -->
+                <!-- Module Side NAV -->
+                <div class="module module-side-nav pull-left">
+                    <div class="module-icon side-nav-icon">
+                        <i class="fa fa-bars"></i>
+                        <span class="title">Side Navigation</span>
+                    </div>
+                    <div class="module-content module-hamburger">
+                        <div class="hamburger-panel module-widgets">
 
+    <!-- .widget-recent end -->
 
+    <!-- Instagram Feed
+============================================= -->
+    <div class="widget widget-instagram">
+        <div class="widget--title">
+            <h5>إنستجرام</h5>
+        </div>
+        <div class="widget--content">
+            <div id="instafeedModule" class="instafeed" data-insta-number="8"></div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- .widget-instagram end -->
 
+    <!-- .widget-tags end -->
+    <a class="module-cancel" href="#"><i class="fa fa-times"></i></a>
+</div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
         <!-- /.container-fluid -->
     </nav>
-
 </header>
 <!-- Hero Section
 ====================================== -->
-<section id="slider" class="slider slide-overlay-dark">
-	<!-- START REVOLUTION SLIDER 5.0 -->
-	<div class="rev_slider_wrapper">
-		<div id="slider1" class="rev_slider"  data-version="5.0">
-			<ul>
-				<!-- slide 1 -->
-				<li data-transition="zoomin"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/1.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-130" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Welcome To Baci</div>
-					</div>
-					
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--headline">We Are Food Masters!</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="20" 
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on"
-						>
-						<div class="slide--bio text--center">Baci has the perfect place to enjoy fine food and great cocktails with <br>excellent service, in comfortable atmospheric surroundings. </div>
-					</div>
-					
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-						data-transform_idle="o:1;"
-						data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
-						data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);"
-						data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-						data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-						data-mask_out="x:inherit;y:inherit;" 
-						data-start="1250" 
-						data-splitin="none" 
-						data-splitout="none" 
-                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-basealign="slide" 
-						data-responsive_offset="on" 
-						data-responsive="off">
-						<div class="slide-action">
-							<a class="btn btn--white btn--bordered btn--rounded btn--lg" href="https://online.fliphtml5.com/totog/qnzp/">Discover Our Menu</a>
-						</div>
-					</div>
-				</li>
-				
-				<!-- slide 2 -->
-				<li data-transition="slideoverdown"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-130" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Hello, We Are Baci</div>
-					</div>
-					
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--headline extend">We Serve Quality Food</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="20" 
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on"
-						>
-						<div class="slide--bio text--center">Baci is a restaurant, cafe located on Egypt. We have<br>awesome recipes and the most talented chefs in town! </div>
-					</div>
-					
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-                        data-frames='[{"delay":2250,"speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-						data-basealign="slide" 
-						data-responsive_offset="on" 
-						data-responsive="off">
-						<div class="slide-action">
-							<a class="btn btn--primary btn--inverse btn--rounded btn--lg" href="https://wa.link/bgl9ja">Reserve your table now</a>
-						</div>
-					</div>
-				</li>
-				
-				<!-- slide 3 -->
-				<li data-transition="zoomout"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="assets/images/sliders/slide-bg/12.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Baci Offers You</div>
-					</div>
-					
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="0" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--headline">Fresh & Tasty Meals</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--bio text--center">Baci has the perfect place to enjoy fine food and great cocktails with <br>excellent service, in comfortable atmospheric surroundings. </div>
-					</div>
-				</li>
+<section id="slider" class="slider slide-overlay-dark ltr">
+    <!-- START REVOLUTION SLIDER 5.0 -->
+    <div class="rev_slider_wrapper">
+        <div id="slider1" class="rev_slider" data-version="5.0">
+            <ul>
+                <!-- slide 1 -->
+                <li data-transition="zoomin" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000">
+                    <!-- MAIN IMAGE -->
+                    <img src="assets/images/sliders/slide-bg/1.jpg" alt="Slide Background Image" width="1920" height="1280">
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="-130" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--subheadline">أهلا بك في صالون ادم </div>
+                    </div>
 
-			</ul>
-		</div>
-		<!-- END REVOLUTION SLIDER -->
-	</div>
-	<!-- END OF SLIDER WRAPPER -->
-</section>
-<!-- banner#4
-============================================= -->
-<section id="banner4" class="banner banner-2 text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="heading heading-1 text--center">
-                    <p class="heading--subtitle">Hello dear</p>
-                    <h2 class="heading--title">Welcome To Baci</h2>
-                    <div class="divider--shape-4"></div>
-                    <p class="heading--desc">baci was one of the first italian retaurants to open in alexandria, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
-                </div>
-                <!-- .heading end -->
-                <a class="btn btn--secondary btn--bordered btn--rounded mt-30" href="#">Book A Table</a>
-            </div>
-            <!-- .col-md-6 end -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="banner-img mt-20">
-                    <img src="assets/images/banners/4.jpg" alt="image">
-                </div>
-            </div>
-            <!-- .col-md-3 end -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="banner-img">
-                    <img src="assets/images/banners/5.jpg" alt="image">
-                </div>
-                <!-- .col-md-3 end -->
-            </div>
-            <!-- .col-md-3 end -->
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="-65" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--headline">نحن محترفون</div>
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="20" data-width="none" data-height="none" data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--bio text--center">صالون ادم هو المكان المميز لتحصل علي أفضل حلاقة و ستايل تحبه <br> خدمة ممتازة في جو مريح. </div>
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none" data-splitout="none" data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-basealign="slide" data-responsive_offset="on" data-responsive="off">
+                        <div class="slide-action">
+                            <a class="btn btn--white btn--bordered btn--rounded btn--lg" href="#">احجز مقعدك الآن</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- slide 2 -->
+                <li data-transition="slideoverdown" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000">
+                    <!-- MAIN IMAGE -->
+                    <img src="assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image" width="1920" height="1280">
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="-130" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--subheadline">نحن مميزين</div>
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="-65" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--headline">نقدم احدث صيحات الشعر </div>
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="20" data-width="none" data-height="none" data-frames='[{"delay":2000,"speed":300,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--bio text--center">صالون ادم هو افضل مكان بجده لتحصل علي <br> قصات شعر جديده مع افضل الحلاقين بالمدينة!</div>
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-width="none" data-height="none" data-whitespace="nowrap" data-frames='[{"delay":2250,"speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]' data-basealign="slide" data-responsive_offset="on" data-responsive="off">
+                        <div class="slide-action">
+                            <a class="btn btn--primary btn--inverse" href="#">شاهد القائمة</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- slide 3 -->
+                <li data-transition="zoomout" data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000">
+                    <!-- MAIN IMAGE -->
+                    <img src="assets/images/sliders/slide-bg/12.jpg" alt="Slide Background Image" width="1920" height="1280">
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="-65" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--subheadline">عروض اليوم</div>
+                    </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="0" data-whitespace="nowrap" data-width="none" data-height="none" data-frames='[{"delay":1750,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--headline">خصومات هائلة </div>
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption" data-x="center" data-hoffset="0" data-y="center" data-voffset="100" data-width="none" data-height="none" data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <div class="slide--bio text--center">احجز مقعدك الآن<br> . </div>
+                    </div>
+                </li>
+
+            </ul>
         </div>
-        <!-- .row end -->
+        <!-- END REVOLUTION SLIDER -->
     </div>
-    <!-- .container end -->
+    <!-- END OF SLIDER WRAPPER -->
 </section>
-<!-- #banner4 end -->
 
-
-<!-- Menu Board
+<!-- Menu Grid
 ============================================= -->
-<section id="menuBoard" class="pb-90">
+<section id="menuGrid">
     <div class="container">
         <div class="row clearfix">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Start Eating Better</p>
-                    <h2 class="heading--title mb-0">Daily New Fresh Meals</h2>
+                    <p class="heading--subtitle">من نحن</p>
+                    <h2 class="heading--title mb-0">صالون ادم </h2>
                     <div class="divider--shape-4"></div>
-                    <p class="heading--desc">Baci has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar and alovely awesome on site coffee roastery.</p>
+                    <p class="heading--desc">افضل مكان بجدة لتحصل علي قصه الشعر اللتي تريدها مع نخبه من افضل الحلاقين المتحصصون في احدث صيحات الموضة العالمية.</p>
+                </div>
+                <div class="signiture-img mb-100">
+                    <img class="center-block" src="assets/images/heading/signiture.png" alt="signiture">
                 </div>
             </div>
             <!-- .col-md-8 end -->
@@ -397,177 +318,178 @@
         <!-- .row end -->
     </div>
     <!-- .container end -->
-
-
-<!-- Testimonial #1
-============================================= -->
-<section id="testimonial1" class="testimonial testimonial-1 bg-overlay bg-parallax bg-overlay-dark pb-90">
-    <div class="bg-section">
-        <img src="assets/images/background/1.jpg" alt="Background" />
-    </div>
-    <div class="container">
-        <div class="divider--shape-1up"></div>
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-                <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Testimonials</p>
-                    <h2 class="heading--title color-white">Happy Customers</h2>
-                    <div class="divider--shape-13"></div>
-                </div>
-            </div>
-            <!-- .col-md-8 end -->
-        </div>
-        <!-- .row end -->
+    <div class="container-fluid pr-0 pl-0 tabs">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
-                <div id="testimonial-carousel" class="carousel carousel-dots carousel-white" data-slide="3" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
+
+<!-- Testimonial #3
+============================================= -->
+<section id="testimonial3" class="testimonial testimonial-3 text-center pb-90 ">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div id="testimonial-wide" class="carousel carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="false" data-nav="false" data-dots="true" data-space="0" data-loop="true" data-speed="800">
                     <!-- Testimonial #1 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ النهارده كنا عندكم مكان جميل جدا الفطار رائع جميل المشروبات حلوه الخدمه رائعه كان معنا شاب جميل اسمه کیرولس بصراحه أدب وذوق ويعملك الخدمه وهو مبسوط جدا وروحه حلوه اوي والانسه فرح اسقبالها رائع وشرحها للفطار ممتع إن شاء الله حنيجي كتييرر وشكرا لكم ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/1.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Azza Hassaneen</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <!-- .testimonial-rating end -->
+                        <div class="testimonial--body">
+                            <p>"أفضب تجربه حلاقة مررت بها  "</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--img">
+                                <img src="assets/images/testimonial/1.png" alt="Testimonial Author">
+                            </div>
+                            <div class="testimonial--author">
+                                <h4>محمود بغاغو</h4>
                             </div>
                         </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
+                        <!-- .testimonial-meta end -->
                     </div>
+                    <!-- .testimonial-panel end -->
+
                     <!-- Testimonial #2 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“الواحد مش عارف يشكركوا ازاى بجد ع الاستقبال الهايل دة وع المعاملة الجميلة ولا ع الاكل الحلو بتاعكوا.. بجد شكرا ليكوا ع الاستضافه الجميلة دى .. شكرا بجد وانشالله مش هتكون اخر مرة ... ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/2.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Mina Romanii</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-
+                    <div class="testimonial-panel">
+                        <div class="testimonial--rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
                         </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                    <!-- Testimonial #3 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ بجد من احلى الكافيهات لما بنزل اسكندريه مبرحش غير فيه والنهارده المكان تحفه والأستاف كله محترم وبالاخص زكى محترم جدا واستقباله ممتاز ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/3.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Shaim Hassan</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
-                            </div>
-
+                        <!-- .testimonial-rating end -->
+                        <div class="testimonial--body">
+                            <p>"أفضل مكان بجده و المملكه كلها "</p>
                         </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
-                    </div>
-                    <!-- Testimonial #4 -->
-                    <div class="testimonial-container">
-
-                        <div class="testimonial-panel">
-                            <div class="testimonial-bordered">
-                                <div class="testimonial--rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <!-- .testimonial-rating end -->
-                                <div class="testimonial--body">
-                                    <p>“ من احلى الاماكن الى حضرت فيها كان في عيد ميلاد جميل فيه هناك ديكور. وفرقه تحفه بجد ربنا يبارك فيه ”</p>
-                                </div>
-                                <!-- .testimonial-body end -->
-                                <div class="testimonial--meta">
-                                    <div class="testimonial--img">
-                                        <img src="assets/images/testimonial/4.png" alt="Testimonial Author">
-                                    </div>
-                                    <div class="testimonial--author">
-                                        <h4>Sara Khaled</h4>
-                                    </div>
-                                </div>
-                                <!-- .testimonial-meta end -->
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--img">
+                                <img src="assets/images/testimonial/2.png" alt="Testimonial Author">
+                            </div>
+                            <div class="testimonial--author">
+                                <h4>أحمد إبراهيم</h4>
                             </div>
                         </div>
-                        <!-- .testimonial-panel end -->
-                        <div class="divider--shape-1up"></div>
+                        <!-- .testimonial-meta end -->
                     </div>
+                    <!-- .testimonial-panel end -->
                 </div>
             </div>
             <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #testimonial3 end -->
+
+<!-- Reservation #1
+============================================= -->
+<section id="reservation1" class="reservation reservation-1 bg-overlay bg-parallax bg-overlay-dark pb-70">
+    <div class="bg-section">
+        <img src="assets/images/background/7.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div class="reservation-form mb-30 text-center">
+                    <div class="reservation-bordered">
+                        <div class="heading heading-1 text-center">
+                            <p class="heading--subtitle">الحجز</p>
+                            <h2 class="heading--title">أحجز مقعدك الأن</h2>
+                            <div class="divider--shape-4"></div>
+                        </div>
+                        <div class="reservation--dec">
+                            يمكنك حجز مقعدك عن طريق الانترنت الان !
+                        </div>
+                        <form method="post" action="assets/php/reservation.php" class="reservationForm mb-0">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                    <div class="form-select">
+                                        <i class="fa fa-angle-down"></i>
+                                        <select class="form-control" name="people" id="num">
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="8">8</option>
+										<option value="10">10</option>
+									</select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                    <div class="form-select">
+                                        <i class="fa fa-angle-down"></i>
+                                        <select class="form-control" name="day" id="day">
+										<option value="november 23">23 نوفمبر 2018</option>
+										<option value="november 24">24 نوفمبر 2018</option>
+										<option value="november 25">25 نوفمبر 2018</option>
+										<option value="november 26">26 نوفمبر 2018</option>
+										<option value="november 27">27 نوفمبر 2018</option>
+									</select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4">
+                                    <div class="form-select">
+                                        <i class="fa fa-angle-down"></i>
+                                        <select class="form-control" name="time" id="time">
+										<option value="8:00">20:00</option>
+										<option value="9:00">21:00</option>
+										<option value="10:00">22:00</option>
+										<option value="11:00">23:00</option>
+										<option value="12:00">24:00</option>
+									</select>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <button type="submit" id="submit-reservation" class="btn btn--secondary btn--block">احجز مقعدك الآن</button>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <!--Alert Message-->
+                                    <div class="reservation-result"></div>
+                                </div>
+                            </div>
+                            <!-- .row end -->
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+                <!-- .contact-form end -->
+            </div>
+            <!-- .col-md-8 end -->
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="text-uppercase text-center">
+                    <strong><span class="text-white">تم التطوير بواسطة</span> <a href="#">محمد عبده</a></strong>
+                </div>
+            </div>
         </div>
         <!-- .row end -->
         <div class="divider--shape-1down"></div>
     </div>
     <!-- .container end -->
 </section>
-<!-- #testimonial1 end -->
+<!-- #reservation1 end -->
 
 <!-- Blog Carousel
 ============================================= -->
-<section id="blog" class="blog blog-carousel pb-100 pb-100">
+<section id="blog" class="blog blog-carousel pb-100">
     <div class="container">
         <div class="row clearfix">
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <div class="heading heading-1 mb-50 text--center">
-                    <p class="heading--subtitle">Don’t miss</p>
-                    <h2 class="heading--title mb-0">Our News & Events</h2>
+                    <p class="heading--subtitle">تابعنا</p>
+                    <h2 class="heading--title mb-0">أحدث الأخبار</h2>
                     <div class="divider--shape-4"></div>
+                    <p class="heading--desc">تابع احدث الأخبار لدينا.</p>
                 </div>
             </div>
             <!-- .col-md-8 end -->
@@ -582,10 +504,10 @@
 
                         <div class="entry--content">
                             <div class="entry--meta">
-                                <span class="entry--date">Oct 12, 2023</span> / <span><a href="#">Shisha</a> , <a href="#">Event</a></span>
+                                <span class="entry--date">22 فبراير 2025 </span> / <span><a href="#">قصه الموهوك</a></span>
                             </div>
                             <div class="entry--title">
-                                <h4><a href="#">Mazaya world SHISHA</a></h4>
+                                <h4><a href="#">وصفات للعناية بشعرك </a></h4>
                             </div>
                             <div class="entry--img">
                                 <a href="#">
@@ -593,14 +515,32 @@
 							</a>
                             </div>
                             <div class="entry--bio">
-                                Mazaya world are Worldwide shisha experts 
-				MAZAYA X BACI
                             </div>
                         </div>
                         <!-- .entry-content end -->
                     </div>
                     <!-- .blog-entry end -->
 
+                    <!-- Blog Entry #2 -->
+                    <div class="blog-entry">
+                        <div class="entry--content">
+                            <div class="entry--meta">
+                                <span class="entry--date">22 فبراير 2017</span> / <span><a href="#">صحة</a> , <a href="#">أكلات مفيده لشعرك</a></span>
+                            </div>
+                            <div class="entry--title">
+                                <h4><a href="#">خصومات خاصة جدا!</a></h4>
+                            </div>
+                            <div class="entry--img">
+                                <a href="#">
+								<img src="assets/images/blog/grid/2.jpg" alt="entry image"/>
+							</a>
+                            </div>
+                            <div class="entry--bio">
+                            </div>
+                        </div>
+                        <!-- .entry-content end -->
+                    </div>
+                    <!-- .blog-entry end -->
 
                 </div>
                 <!-- .carousel end -->
@@ -612,7 +552,6 @@
     <!-- .container end -->
 </section>
 <!-- #blog end -->
-
 <!-- footer#1
 ============================================= -->
 <footer id="footer" class="footer footer-1 text-center">
@@ -622,37 +561,32 @@
     <div class="footer--widget text--center">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="footer--widget-content">
-                        <h3>Follow Us</h3>
+                        <h3>تابعنا</h3>
                         <div class="footer--social-icons">
-                            <a href="https://www.facebook.com/bacirestaurant"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/baci_restaurant/?hl=ar"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                            <a href="#"><i class="fa fa-tripadvisor"></i></a>
+                            <a href="https://www.instagram.com/salonsadam/?hl=ar"><i class="fa fa-instagram"></i></a>
                         </div>
                         <!-- .social-icons end -->
                     </div>
                 </div>
                 <!-- .col-md-4 end -->
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="footer--widget-content">
                         <img class="mb-20" src="assets/images/logo/logo-light.png" alt="logo">
-                        <p>Baci has the perfect place to enjoy fine food and great cocktails with excellent service, in comfortable atmospheric surroundings. We have a soft dining room, combined with an open kitchen, coffee take out bar.</p>
+                        <p>صالون ادم هو افضل مكان لتحصل علي افضل قصات الشعر.</p>
                     </div>
                 </div>
                 <!-- .col-md-3 end -->
 
-                <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="footer--widget-content">
-                        <h3>Neswletter</h3>
+                        <h3>النشرة البريدية</h3>
                         <div class="widget--newsletter">
-                            <form class="footer--social-newsletter mailchimp">
-                                <input type="email" name="email" class="form-control" placeholder="Subscribe Our Newsletter">
-                                <button type="submit">join</button>
+                            <form class="footer--social-newsletter">
+                                <input type="email" name="email" class="form-control" placeholder="إشترك في النشرة البريدية">
+                                <button type="submit">إنضم</button>
                             </form>
-                            <div class="subscribe-alert"></div>
                         </div>
                         <!-- .widget end -->
                     </div>
@@ -669,15 +603,11 @@
         <div class="divider--shape-dark2"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-xs-12 col-sm-5 col-md-12">
                     <div class="contact-info">
-                        <span>The Walk , Sidi Gaber , Alexandria</span> -
-                        <span> 011000110</span> -
-                        <span>Bacirestuarant@gmail.com</span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <span>&copy; 2023 Baci developed by </span> <a href="http://mohamed-abdo.website/">Mohamed abdo</a>
+                <div class="col-xs-12 col-sm-5 col-md-12">
                 </div>
             </div>
         </div>
